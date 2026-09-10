@@ -1,6 +1,8 @@
 # Programmeerimise-projekt
 Anete Selgis ja Marii Lisell Mahoni
 
+https://trello.com/b/tDFcEerC
+
 
 Nimi: TODO
 
