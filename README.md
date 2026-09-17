@@ -21,3 +21,5 @@ Kujundus
 Lisa: 
 Saada rakendus telefoni
 Ise kujundust muuta/personaliseerida
+
+<img width="3000" height="4000" alt="20260917_091935" src="https://github.com/user-attachments/assets/7b3fd876-b259-41da-8e01-1fe1e75c0059" />
