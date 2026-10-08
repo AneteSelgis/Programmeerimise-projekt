@@ -5,7 +5,7 @@ https://trello.com/b/tDFcEerC
 
 
 Individuaalne programmeerimine (Anete).
-Kalendri tööle saamiseks tuleb esmalt siit lingilt https://drive.google.com/drive/folders/1gHFmTowwwLM4BeRfyIpc1kUnuAfK8Yio?usp=drive_link alla laadida kõik failid ning need Thonny keskkonda lisada.
+Kalendri tööle saamiseks tuleb esmalt siit lingilt https://drive.google.com/drive/folders/1A4Z-rAhtkeee3G-zf5fLX7zRKPyZwInp?usp=sharing alla laadida kõik failid ning need Thonny keskkonda lisada.
 Kalendri käivitamiseks tuleb Thonnys avada fail app.py ja vajutada rohelist Run-nuppu. Seejärel peaks kalender avanema.
 
 Nimi: TODO
