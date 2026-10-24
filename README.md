@@ -1,6 +1,8 @@
 # Programmeerimise-projekt
 Anete Selgis ja Marii Lisell Mahoni
 
+Valmis töö AneteSelgis.pythonanywhere.com
+
 https://trello.com/b/tDFcEerC
 
 
