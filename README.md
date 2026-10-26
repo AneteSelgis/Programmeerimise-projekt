@@ -2,6 +2,23 @@
 Anete Selgis ja Marii Lisell Mahoni
 
 Valmis töö AneteSelgis.pythonanywhere.com 
+Juhend1:
+Mis see on
+TODO on veebileht, kus saad oma ülesandeid ja tunniplaani kalendris ühes kohas hoida.
+Mida sa sellega teha saad:
+• registreerida konto ja sisse logida, igaühel on oma andmed;
+• vaadata kalendrit kuu, nädala ja päeva kaupa, 24 tunni kellaga;
+• lisada ülesandeid (To do) kuupäeva, kellaaja ja värviga;
+• märkida hõivatud aega, näiteks tunniplaani, mis kordub igal nädalal;
+• muuta ja kustutada oma kirjeid ühe klõpsuga;
+• näha all vasakul teadet lähima 24 tunni sündmustest.
+
+Konto ja sisselogimine
+Registreerimine: Sisesta sisselogimislehel registreerimise vormi kasutajanimi ja parool. Kasutajanimi on 3–20 märki (tähed, numbrid, alakriips), parool 8–128 märki. Pärast registreerimist logitakse sind automaatselt sisse.
+Sisselogimine: Kirjuta oma kasutajanimi ja parool. Kui kumbki on vale, näed teadet "Vale kasutajanimi või parool" ja mitu katset sul veel on.
+Lukustus: Vale kasutajanimi ja vale parool loevad mõlemad ebaõnnestunud katseks. Praegu läheb sisselogimine 2 minutiks lukku pärast 3 vale katset.
+Väljalogimine: Vajuta lehe paremas ülanurgas nuppu Log out. Muidu logitakse sind 2 tunni pärast automaatselt välja.
+Parooli lähtestamise võimalust ei ole. Kui unustad parooli, pead registreerima uue kasutajanime.
 
 https://trello.com/b/tDFcEerC
 
@@ -9,7 +26,6 @@ https://trello.com/b/tDFcEerC
 Individuaalne programmeerimine (Anete).
 Kalendri tööle saamiseks tuleb esmalt siit lingilt https://drive.google.com/drive/folders/1Q9XhLJoZxaBKkashJtkdHiBps7EEOLVW?usp=sharing alla laadida kõik failid ning need Thonny keskkonda lisada.
 Kalendri käivitamiseks tuleb Thonnys avada fail app.py ja vajutada rohelist Run-nuppu. Seejärel peaks kalender avanema.
-
 
 
 Individuaalne programmeerimine (Marii).
