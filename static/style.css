@@ -1,0 +1,96 @@
+/* ===== Shared by all pages ===== */
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: "Montserrat", sans-serif;
+    background: white;
+    color: #fff;
+}
+
+a {
+    color: #34495e;
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 25px;
+    color: #34495e;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 300;
+    color: #34495e;
+}
+
+/* ===== Login page only (body has class "login-page") ===== */
+body.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    width: 350px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 25px #2d415596;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #4463815e;
+    color: #313d4a;
+    font-size: 14px;
+}
+
+input::placeholder {
+    color: #313d4a;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #34495e;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #34495e;
+}
+
+.error {
+    color: #ff3366;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* ===== Calendar page (your friend can add styles below) ===== */
+.calendar-page {
+    padding: 40px;
+}

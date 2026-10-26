@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Logi sisse</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chango&family=Coiny&family=Pompiere&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="login-page">
+    <div class="container">
+        <div class="title">TODO</div>
+
+        {% if error %}
+            <div class="error">{{ error }}</div>
+        {% endif %}
+
+        <h2>Logi sisse</h2>
+        <form action="/login" method="POST">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <input name="username" placeholder="Kasutajanimi" autocomplete="username" required>
+            <input name="password" placeholder="Parool" type="password" autocomplete="current-password" required>
+            <button type="submit">Logi sisse</button>
+        </form>
+
+        <h2>Registreeri</h2>
+        <form action="/register" method="POST">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <input name="username" placeholder="Kasutajanimi" autocomplete="username" minlength="3" maxlength="20" required>
+            <input name="password" placeholder="Parool (vähemalt 8 märki)" type="password" autocomplete="new-password" minlength="8" maxlength="128" required>
+            <button type="submit">Loo konto</button>
+        </form>
+    </div>
+</body>
+</html>
