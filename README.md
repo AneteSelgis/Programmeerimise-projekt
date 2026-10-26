@@ -2,8 +2,9 @@
 Anete Selgis ja Marii Lisell Mahoni
 
 Valmis töö AneteSelgis.pythonanywhere.com 
-Juhend1:
-Mis see on
+
+Juhend:
+Mis see on:
 TODO on veebileht, kus saad oma ülesandeid ja tunniplaani kalendris ühes kohas hoida.
 Mida sa sellega teha saad:
 • registreerida konto ja sisse logida, igaühel on oma andmed;
@@ -13,7 +14,7 @@ Mida sa sellega teha saad:
 • muuta ja kustutada oma kirjeid ühe klõpsuga;
 • näha all vasakul teadet lähima 24 tunni sündmustest.
 
-Konto ja sisselogimine
+Konto ja sisselogimine:
 Registreerimine: Sisesta sisselogimislehel registreerimise vormi kasutajanimi ja parool. Kasutajanimi on 3–20 märki (tähed, numbrid, alakriips), parool 8–128 märki. Pärast registreerimist logitakse sind automaatselt sisse.
 Sisselogimine: Kirjuta oma kasutajanimi ja parool. Kui kumbki on vale, näed teadet "Vale kasutajanimi või parool" ja mitu katset sul veel on.
 Lukustus: Vale kasutajanimi ja vale parool loevad mõlemad ebaõnnestunud katseks. Praegu läheb sisselogimine 2 minutiks lukku pärast 3 vale katset.
